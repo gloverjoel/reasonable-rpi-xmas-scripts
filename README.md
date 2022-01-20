@@ -2,6 +2,7 @@
 Script edits for 3D RGB Xmas Tree for Raspberry Pi
 
 sudo apt update && upgrade
+
 sudo apt install python3-pip
 
     Create a service via:
