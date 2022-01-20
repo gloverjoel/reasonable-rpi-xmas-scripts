@@ -1,0 +1,10 @@
+[Unit]
+Description=RGB lighting
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStart=/usr/bin/python3 /home/pi/onebyone.py
+
+[Install]
+WantedBy=multi-user.target
